@@ -1,8 +1,4 @@
 # 🚀 Monitoring Stack: Prometheus + Grafana + Node # Exporter
-https://img.shields.io/badge/Docker-Enabled-blue?style=for-the-badge&logo=docker
-https://img.shields.io/badge/Prometheus-Monitoring-orange?style=for-the-badge&logo=prometheus
-https://img.shields.io/badge/Grafana-Visualization-red?style=for-the-badge&logo=grafana
-https://img.shields.io/badge/Ubuntu-24.04-orange?style=for-the-badge&logo=ubuntu
 
 A complete, production-ready monitoring solution containerized with Docker, featuring Prometheus for metrics collection, Grafana for visualization, and Node Exporter for system metrics.\
 
@@ -10,30 +6,24 @@ A complete, production-ready monitoring solution containerized with Docker, feat
 ## 🎯 Overview
 This project provides a comprehensive monitoring stack that combines:
 
-📊 Prometheus - Powerful metrics collection and time-series database
-📈 Grafana - Advanced visualization and dashboarding platform
-💻 Node Exporter - Comprehensive system/hardware metrics exporter
+ - 📊 Prometheus - Powerful metrics collection and time-series database
+ - 📈 Grafana - Advanced visualization and dashboarding platform
+ - 💻 Node Exporter - Comprehensive system/hardware metrics exporter
 
 ## ✨ Key Features
-🐳 Multi-stage Docker build for optimal image size
-💾 Persistent storage for configurations and data
-🔄 Easy updates and maintenance
-🛡 Production-ready architecture
-📦 All-in-one solution with minimal setup
-
-## 🏗 Architecture
-
+ - 🐳 Multi-stage Docker build for optimal image size
+ - 💾 Persistent storage for configurations and data
+ - 🔄 Easy updates and maintenance
+ - 🛡 Production-ready architecture
+ - 📦 All-in-one solution with minimal setup
 
 ## 📋 Prerequisites
 
 System Requirements
-OS: Ubuntu 24.04 (or compatible Linux distribution)
-
-Docker: Installed and running
-
-Permissions: sudo privileges
-
-Ports: 3000, 9090, 9100 available
+ - OS: Ubuntu 24.04 (or compatible Linux distribution)
+ - Docker: Installed and running
+ - Permissions: sudo privileges
+ - Ports: 3000, 9090, 9100 available
 
 ## Verify Prerequisites
 
@@ -175,9 +165,9 @@ docker run -d \
 ```
 
 ## 🎯 Access Services
-🔍 Prometheus - http://localhost:9090
-📈 Grafana - http://localhost:3000
-💻 Node Exporter - http://localhost:9100/metrics
+ - 🔍 Prometheus - http://localhost:9090
+ - 📈 Grafana - http://localhost:3000
+ - 💻 Node Exporter - http://localhost:9100/metrics
 
 ## 📊 Grafana Setup Guide
 
