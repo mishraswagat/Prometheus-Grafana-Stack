@@ -240,6 +240,8 @@ sudo tar -xzf grafana_backup.tar.gz -C /
 ## 🐳 Multi-Stage Docker Build
  - Why: Separates build tools from runtime environment
  - Benefit: 60% smaller image size
+ - Why not include node_exporter in the container ?
+   - node_exporter will monitor the container's environment, not the host
 
 ## 💾 Volume Mounts
  - Configuration: Runtime modifications without rebuild
