@@ -1,4 +1,4 @@
-# 🚀 Monitoring Stack: Prometheus + Grafana + Node # Exporter
+# 🚀 Monitoring Stack: Prometheus + Grafana + Node Exporter
 
 A complete, production-ready monitoring solution containerized with Docker, featuring Prometheus for metrics collection, Grafana for visualization, and Node Exporter for system metrics.\
 
